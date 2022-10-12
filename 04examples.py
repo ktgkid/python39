@@ -58,3 +58,52 @@ print(True and False and True or True)
 
 
 # 10
+# 파이썬의 if 단축식 : 참일때 값 if 조건식 else
+# print('만나이', (age + 1) if isPassBirth else age)
+
+# 13
+print('7 x 1 = ', (7*1))
+print('7 x 2 = ', (7*2))
+print('7 x 3 = ', (7*3))
+print('7 x 4 = ', (7*4))
+print('7 x 5 = ', (7*5))
+print('7 x 6 = ', (7*6))
+print('7 x 7 = ', (7*7))
+print('7 x 8 = ', (7*8))
+print('7 x 9 = ', (7*9))
+
+# % 서식
+num1 = 7
+
+print('단수 : %s' % num1)
+print('7 x 1 = %d' % (7*1))
+print('7 x 2 = %d' % (7*2))
+print('7 x 3 = %d' % (7*3))
+print('7 x 4 = %d' % (7*4))
+print('7 x 5 = %d' % (7*5))
+print('7 x 6 = %d' % (7*6))
+print('7 x 7 = %d' % (7*7))
+print('7 x 8 = %d' % (7*8))
+print('7 x 9 = %d' % (7*9))
+
+# .format
+print('7 x 1 = {:d}'.format(7*1))
+print('7 x 2 = {:d}'.format(7*2))
+print('7 x 3 = {:d}'.format(7*3))
+print('7 x 4 = {:d}'.format(7*4))
+print('7 x 5 = {:d}'.format(7*5))
+print('7 x 6 = {:d}'.format(7*6))
+print('7 x 7 = {:d}'.format(7*7))
+print('7 x 8 = {:d}'.format(7*8))
+print('7 x 9 = {:d}'.format(7*9))
+
+# f-string
+print(f'7 x 1 = {7*1:2d}')
+print(f'7 x 2 = {7*2:2d}')
+print(f'7 x 3 = {7*3:2d}')
+print(f'7 x 4 = {7*4:2d}')
+print(f'7 x 5 = {7*5:2d}')
+print(f'7 x 6 = {7*6:2d}')
+print(f'7 x 7 = {7*7:2d}')
+print(f'7 x 8 = {7*8:2d}')
+print(f'7 x 9 = {7*9:2d}')
