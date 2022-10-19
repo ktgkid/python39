@@ -183,4 +183,3 @@ print(rnd.randint(1, 10))
 
 for _ in range(6):      # 반복실행시 인덱스가 필요없으면 _ 사용
     print(rnd.randint(1, 45), end=' ')
-
